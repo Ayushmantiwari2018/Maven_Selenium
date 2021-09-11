@@ -13,7 +13,7 @@ public class youTube {
         youTubePage.openYouTube();
     }
 
-    @And("Search (Prashant Dhawan|Ayushman)$")
+    @And("Search (Prashant Dhawan|Ayushman|Parth)$")
     public void searchInYouTube(String Search) {
         youTubePage.searchInYouTube(Search);
     }
