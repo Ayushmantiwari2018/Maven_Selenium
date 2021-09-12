@@ -7,14 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class youTubePage {
 
-    WebDriver driver = new ChromeDriver();
+    //WebDriver driver = new ChromeDriver();
 
     public void openYouTube() {
-        driver.get("https://www.youtube.com/");
+
+        //driver.get("https://www.youtube.com/");
     }
 
     public void searchInYouTube(String search) {
-        driver.findElement(By.xpath(youTubeLocators.youTubeSearchBox)).sendKeys(search);
-        driver.findElement(By.xpath(youTubeLocators.youTubeSearch)).click();
+        //driver.findElement(By.xpath(youTubeLocators.youTubeSearchBox)).sendKeys(search);
+        //driver.findElement(By.xpath(youTubeLocators.youTubeSearch)).click();
     }
 }
